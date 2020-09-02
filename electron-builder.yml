@@ -1,11 +1,3 @@
 productName: Aaimaa Ledgers
 appId: com.aaimaa.ledgers
 afterSign: build/notarize.js
-snap:
-  publish:
-    - github
-mac:
-  hardenedRuntime: true
-  gatekeeperAssess: false
-  entitlements: build/entitlements.mac.plist
-  entitlementsInherit: build/entitlements.mac.plist
