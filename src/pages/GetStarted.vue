@@ -152,7 +152,7 @@ export default {
               },
               fieldname: 'chartOfAccountsReviewed',
               documentation:
-                'https://frappebooks.com/docs/setting-up#1-enter-bank-accounts'
+                '#'
             },
             {
               key: 'Opening Balances',
@@ -161,7 +161,7 @@ export default {
               description:
                 'Setup your opening balances before performing any accounting entries',
               documentation:
-                'https://frappebooks.com/docs/setting-up#5-setup-opening-balances'
+                '#'
             },
             {
               key: 'Add Taxes',
@@ -171,7 +171,7 @@ export default {
                 'Setup your tax templates for your sales or purchase transactions',
               action: () => this.$router.push('/list/Tax'),
               documentation:
-                'https://frappebooks.com/docs/setting-up#2-add-taxes'
+                '#'
             }
           ]
         },
@@ -188,7 +188,7 @@ export default {
               action: () => this.$router.push('/list/Item'),
               fieldname: 'itemCreated',
               documentation:
-                'https://frappebooks.com/docs/setting-up#3-add-items'
+                '#'
             },
             {
               key: 'Add Customers',
@@ -198,7 +198,7 @@ export default {
               action: () => this.$router.push('/list/Customer'),
               fieldname: 'customerCreated',
               documentation:
-                'https://frappebooks.com/docs/setting-up#4-add-customers'
+                '#'
             },
             {
               key: 'Create Invoice',
@@ -208,7 +208,7 @@ export default {
                 'Create your first invoice and mail it to your customer',
               action: () => this.$router.push('/list/SalesInvoice'),
               fieldname: 'invoiceCreated',
-              documentation: 'https://frappebooks.com/docs/invoices'
+              documentation: '#'
             }
           ]
         },
@@ -241,7 +241,7 @@ export default {
                 'Create your first bill and mail it to your supplier',
               action: () => this.$router.push('/list/PurchaseInvoice'),
               fieldname: 'billCreated',
-              documentation: 'https://frappebooks.com/docs/bills'
+              documentation: '#'
             }
           ]
         }

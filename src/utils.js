@@ -15,7 +15,7 @@ export function createNewDatabase() {
       remote.getCurrentWindow(),
       {
         title: _('Select folder'),
-        defaultPath: 'frappe-books.db'
+        defaultPath: 'aaimaa-ledgers.db'
       },
       filePath => {
         if (filePath) {
@@ -34,7 +34,7 @@ export function createNewDatabase() {
                     resolve(filePath);
                   }
                 },
-                { label: _('Cancel'), action() {} }
+                { label: _('Cancel'), action() { } }
               ]
             });
           } else {

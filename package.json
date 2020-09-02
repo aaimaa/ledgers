@@ -1,10 +1,10 @@
 {
-  "name": "frappe-books",
+  "name": "aaimaa-ledgers",
   "description": "Simple book-keeping app for everyone",
   "version": "0.0.3-beta.13",
   "author": {
-    "name": "Frappe Technologies Pvt. Ltd.",
-    "email": "hello@frappe.io"
+    "name": "Aaimaa Web Solutions",
+    "email": "hello@aaimaa.in"
   },
   "scripts": {
     "serve": "vue-cli-service serve",

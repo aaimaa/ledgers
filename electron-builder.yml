@@ -1,5 +1,5 @@
-productName: Frappe Books
-appId: io.frappe.books
+productName: Aaimaa Ledgers
+appId: com.aaimaa.ledgers
 afterSign: build/notarize.js
 snap:
   publish:
